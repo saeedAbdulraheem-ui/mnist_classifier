@@ -1,4 +1,4 @@
-# Aishree Ramesh, Peter Winters, Jessica Wenninger, Marie O’Dea and Said Abdalrahim
+# Aishree Ramesh (ID:24173649), Peter Winters (ID:20240406), Jessica Wenninger (ID:24031623), Marie O’Dea (ID:24228109) and Said Abdalrahim (ID:24177075)
 
 import numpy as np
 import matplotlib.pyplot as plt
