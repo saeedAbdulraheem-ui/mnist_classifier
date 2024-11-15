@@ -139,6 +139,7 @@ if __name__ == "__main__":
     # Set number of runs
     number_of_runs = 3
     # Allow for multiple runs
+    model = create_model()
     for i in range(number_of_runs):
 
         print('Number of runs: ', i+1)
@@ -147,9 +148,6 @@ if __name__ == "__main__":
         X_train, x_val, Y_train, y_val = train_test_split(x_train, y_train, test_size=0.2, shuffle=True)
 
         print(x_train.shape)
-
-        # Create model
-        model = create_model()
 
         # Train model
         trained_model, history = train_model(model, X_train, Y_train, x_val, y_val)
