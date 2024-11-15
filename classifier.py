@@ -1,3 +1,6 @@
+# authors:
+# Aishree Ramesh, Peter Winters, Jessica Wenninger, Marie O’Dea and Said Abdalrahim
+
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
