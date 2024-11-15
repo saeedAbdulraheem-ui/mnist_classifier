@@ -138,8 +138,9 @@ def model_evaluation(model, x, y, run_num):
 if __name__ == "__main__":
     # Set number of runs
     number_of_runs = 3
-    # Allow for multiple runs
+    # Create model
     model = create_model()
+    # Allow for multiple runs
     for i in range(number_of_runs):
 
         print('Number of runs: ', i+1)
